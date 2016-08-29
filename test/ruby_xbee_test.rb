@@ -14,7 +14,7 @@ class RubyXbeeTest < MiniTest::Test
   def test_version_matches_testsuite
     assert_equal 1, @xbee_version_major
     assert_equal 2, @xbee_version_minor
-    assert_equal 1, @xbee_version_patch
-    assert_equal '1.2.1', @xbee_version_string
+    assert_equal 2, @xbee_version_patch
+    assert_equal '1.2.2', @xbee_version_string
   end
 end
