@@ -73,12 +73,13 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency(%q<serialport>, ['~> 1.3', '>= 1.3.1'])
 
-  s.add_development_dependency "rake",               "~> 0"
+  s.add_development_dependency "rake",               "~> 11.2"
   s.add_development_dependency "hanna-nouveau",      "~> 0.4"
   s.add_development_dependency "VersionCheck",       "~> 1.0"
-  s.add_development_dependency "simplecov",          "~> 0.9"
-  s.add_development_dependency "minitest",           "~> 5.5"
-  s.add_development_dependency "minitest-reporters", "~> 1.0"
-  s.add_development_dependency "coveralls",          "~> 0.7"
+  s.add_development_dependency "simplecov",          "~> 0.12"
+  s.add_development_dependency "minitest",           "~> 5.9"
+  s.add_development_dependency "minitest-reporters", "~> 1.1"
+  s.add_development_dependency "coveralls",          "~> 0.8"
+  s.add_development_dependency "tins",               "1.6"
 
 end
